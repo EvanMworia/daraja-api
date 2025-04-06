@@ -1,17 +1,20 @@
 {
-  "name": "backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^1.8.4",
-    "dotenv": "^16.4.7",
-    "path": "^0.12.7"
-  }
+	"name": "backend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^1.8.4",
+		"dotenv": "^16.4.7",
+		"express": "^5.1.0",
+		"nodemon": "^3.1.9",
+		"path": "^0.12.7"
+	}
 }
