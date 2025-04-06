@@ -31,7 +31,8 @@ async function sendStkPush() {
 			PartyA: '254713644793',
 			PartyB: shortcode,
 			PhoneNumber: '254713644793',
-			CallBackURL: 'https://yourwebsite.co.ke/callbackurl',
+			//This url was generated from ngrok, feel free to use ngrok for development purposes, and mount the endpoint to the url
+			CallBackURL: 'https://b437-154-159-252-32.ngrok-free.app/api/mpesa/callback',
 			AccountReference: 'Test Account',
 			TransactionDesc: 'test',
 		};
