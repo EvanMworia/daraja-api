@@ -31,7 +31,7 @@ const getAccessToken = async () => {
 (async () => {
 	try {
 		const tokenData = await getAccessToken();
-		console.log(tokenData);
+		console.log('This is the token data: Access Token ', tokenData);
 	} catch (error) {
 		console.error(error);
 	}

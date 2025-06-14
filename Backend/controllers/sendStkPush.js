@@ -28,11 +28,14 @@ async function sendStkPush() {
 			Timestamp: timestamp,
 			TransactionType: 'CustomerPayBillOnline', //till "CustomerBuyGoodsOnline"
 			Amount: '1',
-			PartyA: '254713644793',
+			// PartyA: '254713644793',
+			PartyA: '254712584549',
 			PartyB: shortcode,
-			PhoneNumber: '254713644793',
+			// PhoneNumber: '254713644793',
+			PhoneNumber: '254712584549',
 			//This url was generated from ngrok, feel free to use ngrok for development purposes, and mount the endpoint to the url
-			CallBackURL: 'https://b437-154-159-252-32.ngrok-free.app/api/mpesa/callback',
+			// CallBackURL: 'https://b437-154-159-252-32.ngrok-free.app/api/mpesa/callback',
+			CallBackURL: 'https://f508-2c0f-2a80-2455-ea10-d4f-9b68-79f2-3c3d.ngrok-free.app/api/mpesa/callback',
 			AccountReference: 'Test Account',
 			TransactionDesc: 'test',
 		};
